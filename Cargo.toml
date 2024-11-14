@@ -1,0 +1,2 @@
+[workspace]
+members = ["code/hello-world", "code/basic-types"]
