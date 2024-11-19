@@ -1,2 +1,2 @@
 [workspace]
-members = ["code/hello-world", "code/basic-types"]
+members = ["code/hello-world", "exercises/primes", "exercises/vector"]

@@ -1,5 +1,10 @@
 # Programowanie w języku Rust - Szkolenie
 
+## Docs
+
+* https://doc.rust-lang.org/book/
+* https://doc.rust-lang.org/std/index.html
+
 ## Konfiguracja środowiska
 
 Proszę wybrać jedną z poniższych opcji:
