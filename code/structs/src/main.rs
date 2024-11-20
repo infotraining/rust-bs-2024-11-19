@@ -39,8 +39,19 @@ mod Company {
 }
 
 mod Shapes {
-    #[derive(Debug, Copy, Clone)]
+
+    #[derive(Debug, Copy, Clone, PartialEq, Eq, Default)]
     pub struct Rectangle(pub i32, pub i32);
+
+    impl Rectangle {
+        pub fn new(width: i32, height: i32) -> Self {
+            Rectangle(width, height)
+        }
+
+        pub fn area(&self) -> i32 {
+            self.0 * self.1
+        }
+    }
 }
 
 fn person_demo() {
@@ -66,9 +77,14 @@ fn shapes_demo() {
     let rect_2 = rect_1;
     println!("{:?} - width: {}, height: {}", rect_2, rect_2.0, rect_2.1);
     
-    println!("{:?} - width: {}, height: {}", rect_1, rect_1.0, rect_1.1);
+    let rect_3 = Rectangle::new(30, 40);
+    println!("{:?} - area: {}", rect_3, rect_3.area());
 }
 
 fn main() {
     person_demo();
+
+    println!("------------");
+    
+    shapes_demo();
 }
