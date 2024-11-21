@@ -45,3 +45,8 @@ Jeśli uczestnicy szkolenia korzystają w pracy z Docker'a, to należy zainstalo
     * po instalacji wtyczki - należy otworzyć w VS Code folder zawierający sklonowane repozytorium i
       z palety poleceń (Ctrl+Shift+P) wybrać opcję **Dev Containers: Rebuild and Reopen in Container**
 
+## Linki:
+
+* https://safecpp.org/draft.html
+* https://github.com/BjarneStroustrup/profiles
+* https://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html
