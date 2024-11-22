@@ -4,6 +4,11 @@
     y: u32
  }
 
+ #[derive(Debug, PartialEq)]
+ enum Direction {
+    Up,
+ }
+ 
  struct Snake { 
     points: Vec<Point>
  }
@@ -20,6 +25,10 @@
     fn head(&self) -> &Point {
         &self.points[0]
     }
+
+    fn direction(&self) -> Direction {
+        Direction::Up
+    }
  }
 
 #[test]
@@ -27,4 +36,11 @@ fn snake_is_constructed_with_segments() {
     let snake = Snake::new(vec![(0, 0), (1, 0), (2, 0)]);
 
     assert_eq!(snake.head(), &Point{x: 0, y: 0});
+}
+
+#[test]
+fn snake_has_default_direction_up() {
+    let snake = Snake::new(vec![(0, 0), (1, 0), (2, 0)]);
+
+    assert_eq!(snake.direction(), Direction::Up);
 }
