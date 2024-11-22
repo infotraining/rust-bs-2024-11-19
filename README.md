@@ -50,3 +50,8 @@ Jeśli uczestnicy szkolenia korzystają w pracy z Docker'a, to należy zainstalo
 * https://safecpp.org/draft.html
 * https://github.com/BjarneStroustrup/profiles
 * https://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html
+
+## Books
+
+* https://learning.oreilly.com/library/view/idiomatic-rust/9781633437463/
+* https://learning.oreilly.com/library/view/hands-on-rust/9781680508796/
