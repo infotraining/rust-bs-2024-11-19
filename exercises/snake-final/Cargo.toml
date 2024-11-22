@@ -1,0 +1,12 @@
+[package]
+name = "snake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bracket-lib = "0.8.7"
+rand = "0.8"
+
+[dev-dependencies]
+rstest = "0.23.0"
+mockall = "0.13"
